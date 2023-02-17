@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header .haut{
+    background-color: rgba(201, 47, 47, 0.71);
+    height: 60px;
+}
+
+header .haut a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+header .recherche{
+    display: flex;
+    background-color: #ffffff;
+    height: 110px;
+    padding-top: 45px;
+}
+
+header .recherche #navigateur{
+    display: flex;
+    margin-left: 25%;
+}
+
+header .recherche img{
+    border-radius: 100%;
+    width: 6%;
+    height: 80px;
+    position: relative;
+    left: 22%;
+    top: -28px;
+}
+
+header .recherche #rond{
+    width: 2%;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(201, 47, 47, 0.71);
+    border: none;
+    position: relative;
+    left: 24%;
+    top: 5px;
+}
+
+.recherche #rond i{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.recherche .mesIcons{
+    margin-left: 25%;
+    
+}
+
+#navigateur #text{
+    height: 40px;
+    width: 30%;
+}
+
+#navigateur input{
+    height: 40px;
+    width: 516%;
+}
+
+#buton{
+    height: 40px;
+    width: 60px;
+    float: left;
+    margin-left: 25%;
+    color: #ffffff;
+    background-color: rgba(39, 68, 173, 0.47);
+    border: none;
+}
+
+.mesIcons .fa-sharp{
+    float: left;
+    margin-left: -350%;
+    font-size: 35px;
+    color: rgb(78, 75, 75);
+}
+
+.mesIcons .fa-solid{
+    float: left;
+    margin-left: -280%;
+    font-size: 35px;
+    color: rgb(78, 75, 75);
+}
+
+.mesIcons a{
+    margin-left: -210%;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(78, 75, 75);
+}
+
+.mesIcons a .fa-regular{
+    font-size: 35px;
+}
+
+#presentation{
+    background-color: rgba(39, 68, 173, 0.44);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#presentation a{
+    text-decoration: none;
+    margin-left: 180px;
+    color: #ffffff;
+    font-family: arial;
+}
+
+#presentation i{
+    font-size: 30px;
+    position: relative;
+    right: 20px;
+}
+
+.bannier #monImage{
+    width: 100%;
+    height: 600px;
+    background: url(images/Banniere-site-un-etudiant-un-ordinateur.png2_.png);
+    background-size: 100% 100%;
+}
+
+.SousImage{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rait{
+    border: 0.2px solid ;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.Money img{
+    width: 30%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.bannier p{
+    font-size: 25px;
+    font-family: arial;
+    margin-top: 20px;
+}
+
+.bannier h6{
+    font-family: sans-serif;
+    color: rgb(94, 93, 93);
+    margin-left: 80px;
+}
+
+.bannier i{
+    font-size: 30px;
+    margin-right: 40px;
+    color: rgba(39, 68, 173, 0.47);
+}
+
+
+.Pub{
+    width: 90%;
+    height: 700px;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.Pub .barre{
+    width: 90%;
+    background-color: rgba(201, 47, 47, 0.71);
+    height: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: arial;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.affiche{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.affiche img{
+    width: 75%;
+    margin-top: 20px;
+}
+
+.affiche p{
+   position: relative;
+   left: 85%;
+   top: -200px;
+}
+
+.affiche h4{
+    position: relative;
+   left: 80%;
+   top: -130px;
+   color:rgba(201, 47, 47, 0.71);
+}
+
+
+.portofolio{
+    max-width: 2000px;
+    width: 90%;
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+    float: left;
+    margin-left: 8%;
+    
+}
+
+.grid-item{
+    width: 300px;
+    height: 320px;
+    background-color: #ffffff;
+    border: 1px solid rgb(160, 159, 159);
+}
+
+.grid-item img{
+    width: 100%;
+    height: 180px;
+    border: 1px solid rgb(211, 210, 210);
+}
+
+.portofolio h3{
+    text-align: center;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgba(201, 47, 47, 0.71);
+}
+
+.portofolio p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.portofolio button{
+    width: 50%;
+    font-size: 15px;
+    float: right;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: rgba(39, 68, 173, 0.47);
+    height: 28px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.barre1{
+    width: 85%;
+    background-color: rgba(39, 68, 173, 0.47);
+    height: 60px;
+    position: relative;
+    left: 8%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: arial;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.logo{
+    max-width: 2000px;
+    width: 90%;
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+    float: left;
+    margin-left: 8%;
+}
+
+
+.logo .photo{
+    border: 1px solid rgb(160, 159, 159);
+    width: 25%;
+    height: 100px;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.fin{
+    width: 100%;
+    height: 700px;
+   
+}
+
+
+
+.fin .Texte{
+    /* display: inline-flex; */
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(39, 68, 173, 0.68);
+    height: 400px;
+    
+}
+
+#societe{
+    float: right;
+    margin-left: -8%;
+}
+
+.Texte h5{
+    font-size: 25px;
+    font-family: arial;
+    color: #e3dfdf;
+}
+
+.Texte p{
+    font-size: 18px;
+    font-family: tahoma;
+    margin: 10px;
+    color: #ffffff;
+}
+
+#recherche input{
+ width: 70%;
+ height: 30px;
+}
+   
+
+#recherche button{
+    width: 30%;
+    height: 30px;
+    background-color: rgba(39, 68, 173, 0.68);
+    color: #ffffff;
+    border: none;
+   }
+   
+.rait1{
+    border: 1.5px solid #ffffff;
+    margin-top: 20px;
+    position: relative;
+    top: -15%;
+    width: 70%;
+    float: left;
+    margin-left: 13%;
+    
+}
+
+
+#logique .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+#logique.icon button{
+    list-style: none;
+    margin: 10px;
+    margin-top: -70px;
+}
+
+
+
+#logique .icon button i{
+    font-size: 3em;
+    color: rgba(201, 47, 47, 0.71);
+    margin: 5px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#logique .icon :hover{
+    transform: translateY(-10px);
+}
+
+#logique button{
+    border: 4px solid rgba(143, 145, 152, 0.68)
+    
+    ;
+    margin: 15px;
+    border-radius: 100%;
+    width: 3%;
+    height: 60px;
+}
+
+#logique p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+
+
+
