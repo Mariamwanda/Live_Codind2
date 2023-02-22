@@ -20,9 +20,10 @@
         </div>
     </header>
     <div id="Page">
-        <p>Une Entreprise de Qualité Basé Sur <span>La Loyauté,Efficacité,Simplicité!!!</span></p> <br> <br> <br>
-        <button>VOIR PLUS</button>
+        <h3>Une Entreprise de Qualité Basé Sur <span>La Loyauté,Efficacité,Simplicité!!!</span></h3>
+        <a href=""><button style="margin-top: 300px;">VOIR PLUS</button></a>
     </div>
+    
     <form>
         <h1>Se connecter</h1>
         <div class="social">
@@ -32,13 +33,13 @@
             <p><i class="fab fa-twitter"></i></p>
         </div>
         <p class="email">Ou utiliser mon adresse e-mail :</p>
-        <div class="inputs">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Mot de passse">
+        <div class="inputs" onsubmit="inscrisFunc()">
+            <input id="user" type="text" placeholder="Username">
+            <input id="pass" type="password" placeholder="*********">
         </div>
-        <p class="inscription">Je n'ai pas de <span>compte</span>. Je m'en <span>crée</span> un.</p>
+        <p id="inscription">Je n'ai pas de <span>compte</span>. Je m'en <a href="inscription.html"><span>crée</span></a> un.</p>
         <div align="center">
-            <button type="submit">Se connecter</button>
+            <button type="submit" class="send">Login</button>
         </div>
     </form>
     <div class="barre">PROMO 100%</div>
@@ -56,10 +57,10 @@
                 <span>50% réduction</span><br>
                 a partir de 3 achetets.
             </p>
-            <img src="images/images (7).jpeg" alt="">
+            <img src="images/images (8).jpeg" alt="">
         </div>
         <div class="premier2">
-            <img src="images/images (7).jpeg" alt="">
+            <img src="images/yepia.webp" alt="">
             <h5>Chargeur Pc HP</h5>
             <p><span>25% rédution</span><br>
                 stock limité.
@@ -98,8 +99,10 @@
                 <button><i class="fa-brands fa-instagram"></i></button>
             </div>
             <p>Copyright:2023Copyright:Samira@gmail.com</p>
-           </div>
-     </footer>
-       
+        </div>
+    </footer>
+
+
+    <script src="connexion.js"></script>
 </body>
 </html>

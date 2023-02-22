@@ -43,14 +43,16 @@ header .haut button{
     width: 100%;
     height: 650px;
     background: url(images/background.jpg);
-    background-size: 100% 100%;
-    opacity: 0.8;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.9;
 }
 
-#Page p{
-    font-size: 30px;
+#Page h3{
+    font-size: 40px;
     color: #ffffff;
     font-family: tahoma;
+    margin-left: 100px;
 }
 
 #Page span{
@@ -69,12 +71,16 @@ header .haut button{
 }
 
 form{
-    margin-top: 30px;
+    border: 2px solid rgb(60, 60, 192);
+    margin-top: 40px;
     background-color: #ffffff;
     padding: 40px 60px;
     border-radius: 15px;
     width: 30%;
     height: 530px;
+    position: relative;
+    left: 33%;
+    margin-bottom: 20px;
 }
 
 form h1{
@@ -88,6 +94,7 @@ form .social{
     display:flex ;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 form .social p{
@@ -109,7 +116,7 @@ form .inputs{
     margin: 30px;
 }
 
-form .inputs input[type="email"],input[type="password"]{
+form .inputs input[type="text"],input[type="password"]{
     padding: 15px;
     border-radius: 5px;
     border: none;
@@ -118,14 +125,18 @@ form .inputs input[type="email"],input[type="password"]{
     outline: none;
 }
 
-form .inscription{
+form #inscription{
     font-size: 15px;
     margin-bottom: 20px;
     color:#878787 ;
     margin: 30px;
 }
 
-form p span{
+form span a {
+    text-decoration: none;
+}
+
+form p span {
     color: #eb7371;
 }
 
@@ -340,8 +351,22 @@ form button{
     color: #ffffff;
 }
 
+#Page button{
+   position: absolute;
+   width: 10%;
+   height: 60px;
+   background-color: rgba(13, 36, 120, 0.68);
+   color: #ffffff;
+   border: none;
+   top: 240px;
+   right: 45%;
+   border-radius: 10px;
+}
 
-
+#Page :hover button{
+    color: rgba(13, 36, 120, 0.68);
+    background-color: #ffffff;
+}
 
 
 
